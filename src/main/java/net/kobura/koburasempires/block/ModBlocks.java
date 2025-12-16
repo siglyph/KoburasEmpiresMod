@@ -14,10 +14,10 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block STEEL_BLOCK = registerBlock("steel_block", new Block(AbstractBlock.Settings.create()
-            .sounds(BlockSoundGroup.NETHERITE).strength(5f).requiresTool()));
+            .sounds(BlockSoundGroup.NETHERITE).strength(1f).requiresTool()));
 
     public static final Block SMITHING_ANVIL = registerBlock("smithing_anvil", new SmithingAnvil(AbstractBlock.Settings.create()
-            .strength(5f).requiresTool()));
+            .strength(1f).requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
