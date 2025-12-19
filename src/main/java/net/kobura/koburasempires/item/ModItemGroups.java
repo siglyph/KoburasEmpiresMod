@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.SMITHING_ANVIL);
+                        entries.add(ModItems.HAMMER);
                     }).build());
 
 
